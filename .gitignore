@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Local environments and secrets
+.venv/
+venv/
+.env
+.streamlit/secrets.toml
+
+# Runtime artifacts
+data/*.db
+data/*.db-shm
+data/*.db-wal
+data/*.inspect.ndjson
+workbook-previews/
+*.log
+
+# OS and editor files
+.DS_Store
+.idea/
+.vscode/

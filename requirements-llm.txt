@@ -1,0 +1,6 @@
+-r requirements.txt
+
+# Optional: only needed when OPENAI_PARSER_ENABLED=1.
+openai>=1.66.0,<3.0.0
+pydantic>=2.7.0,<3.0.0
+
